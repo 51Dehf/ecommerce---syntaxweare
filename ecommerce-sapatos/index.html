@@ -1,12 +1,155 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ecommerce Sapatos</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <h1>Ecommerce Sapatos</h1>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ecommerce Sapatos</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="topbar">
+      <p>Entrega rápida e frete grátis acima de R$ 299</p>
+    </div>
+
+    <nav class="main-nav" aria-label="Navegação principal">
+      <div class="brand">
+        <a href="#" aria-label="Página inicial">ShoeStore</a>
+      </div>
+
+      <ul class="nav-list">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Masculino</a></li>
+        <li><a href="#">Feminino</a></li>
+        <li><a href="#">Infantil</a></li>
+        <li><a href="#">Coleções</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+
+      <div class="nav-actions" aria-label="Ações do usuário">
+        <button type="button" aria-label="Buscar">Buscar</button>
+        <button type="button" aria-label="Carrinho">Carrinho</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="eyebrow">Nova coleção</p>
+        <h1 id="hero-title">Tênis e sapatos para o seu estilo</h1>
+        <a href="#" class="button-primary">Comprar agora</a>
+      </div>
+
+      <div class="hero-visual" aria-label="Imagem principal da campanha"></div>
+    </section>
+
+    <section class="categories" aria-labelledby="categories-title">
+      <div class="section-header">
+        <p class="eyebrow">Categorias</p>
+        <h2 id="categories-title">Navegue por estilo</h2>
+      </div>
+
+      <div class="category-grid">
+        <!-- cards de categorias -->
+      </div>
+    </section>
+
+    <section class="featured-products" aria-labelledby="featured-products-title">
+      <div class="section-header">
+        <p class="eyebrow">Destaques</p>
+        <h2 id="featured-products-title">Produtos em destaque</h2>
+      </div>
+
+      <div class="product-grid">
+        <!-- cards de produtos -->
+      </div>
+    </section>
+
+    <section class="promo-banner" aria-label="Banner promocional">
+      <div class="promo-content">
+        <p class="eyebrow">Oferta especial</p>
+        <h2>Descontos em peças selecionadas</h2>
+        <a href="#" class="button-secondary">Ver ofertas</a>
+      </div>
+    </section>
+
+    <section class="new-arrivals" aria-labelledby="new-arrivals-title">
+      <div class="section-header">
+        <p class="eyebrow">Lançamentos</p>
+        <h2 id="new-arrivals-title">Novidades da semana</h2>
+      </div>
+
+      <div class="product-grid">
+        <!-- cards de lançamentos -->
+      </div>
+    </section>
+
+    <section class="benefits" aria-labelledby="benefits-title">
+      <div class="section-header">
+        <p class="eyebrow">Por que nos escolher</p>
+        <h2 id="benefits-title">Vantagens da loja</h2>
+      </div>
+
+      <div class="benefits-grid">
+        <!-- blocos de benefícios -->
+      </div>
+    </section>
+
+    <section class="newsletter" aria-labelledby="newsletter-title">
+      <div class="newsletter-content">
+        <p class="eyebrow">Receba novidades</p>
+        <h2 id="newsletter-title">Cadastre-se e fique por dentro das promoções</h2>
+        <form>
+          <label for="email" class="sr-only">E-mail</label>
+          <input id="email" type="email" placeholder="Seu e-mail" />
+          <button type="submit">Inscrever-se</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <h3>ShoeStore</h3>
+      <p>Calçados que unem conforto, estilo e identidade.</p>
+    </div>
+
+    <div class="footer-links">
+      <nav aria-label="Links da loja">
+        <h4>Loja</h4>
+        <ul>
+          <li><a href="#">Sobre nós</a></li>
+          <li><a href="#">Nossas lojas</a></li>
+          <li><a href="#">Coleções</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="footer-links">
+      <nav aria-label="Atendimento ao cliente">
+        <h4>Atendimento</h4>
+        <ul>
+          <li><a href="#">Central de ajuda</a></li>
+          <li><a href="#">Trocas e devoluções</a></li>
+          <li><a href="#">Frete e entrega</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="footer-links">
+      <nav aria-label="Redes sociais e contato">
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">WhatsApp</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+
 </html>
